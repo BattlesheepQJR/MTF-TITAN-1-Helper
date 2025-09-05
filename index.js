@@ -4,6 +4,7 @@ const { MessageFlags } = require('discord.js');
 const { InteractionResponseFlags } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
+const port = process.env.PORT || 4000
 
 var currentTask = 1;
 
