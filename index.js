@@ -685,5 +685,5 @@ async function updateRank(action, username, rank, coUsername, note, user) {
     valueInputOption: 'USER_ENTERED',
     requestBody: { values: [[newRank]] }
   });*/
-  return `✅ ${action} successful. <@${user.id}> is now ${newRank}.`;
+  return `✅ ${action} successful. <@${user.id}> is now a ${newRank}.`;
 }
